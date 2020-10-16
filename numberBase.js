@@ -230,7 +230,6 @@ function copytext()
 {
 	copiedstr=document.getElementById("outputtextinp");
 	copiedstr.select();
-	copyText.setSelectionRange(0, 99999);
   	document.execCommand("copy");
 
 }
